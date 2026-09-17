@@ -1,0 +1,19 @@
+services:
+  flask-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: harineshmk/msc-de1-flask-app:1.0.0
+    container_name: flask_sample_app
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/')"]
+      interval: 30s
+      timeout: 3s
+      retries: 3

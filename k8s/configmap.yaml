@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flask-config
+data:
+  FLASK_ENV: "production"
+  APP_TITLE: "Distributed Systems Flask App"
