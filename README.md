@@ -9,7 +9,7 @@ This repository contains an enhanced RESTful Python Flask application with autom
 
 ---
 
-## 📌 Project Metadata & Credentials
+## Project Metadata & Credentials
 
 * **Student Name:** Harinesh Muthu Kumar
 * **Academic Program:** MSc Cloud Computing & Data Engineering
@@ -19,7 +19,7 @@ This repository contains an enhanced RESTful Python Flask application with autom
 
 ---
 
-## 🌐 Application REST API Endpoints
+## Application REST API Endpoints
 
 The core Python Flask application serves a RESTful API with the following routes:
 
@@ -32,7 +32,7 @@ The core Python Flask application serves a RESTful API with the following routes
 
 ---
 
-## 📂 Project Directory Structure
+## Project Directory Structure
 
 ```text
 msc-de1-distributed-systems-docker-k8s/
