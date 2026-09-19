@@ -145,7 +145,7 @@ Test Kubernetes service endpoint routing:
 kubectl port-forward svc/flask-service 8080:5000
 curl.exe -i [http://127.0.0.1:8080/](http://127.0.0.1:8080/)
 
-📜 License & Acknowledgments
+License & Acknowledgments
 Original Sample App Base: Created by Pan Luo under the MIT License.
 
 Cloud-Native & Kubernetes Implementation: Developed by Harinesh Muthu Kumar for the MSc Cloud Computing & Data Engineering program (MSc DE1 Distributed Systems course).
